@@ -1,0 +1,308 @@
+.takeawayHeroContainerI {
+  width: 100%;
+  height: auto;
+}
+
+.takeawayHeroSectionPartI {
+  position: relative;
+}
+
+.heroHIContainer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  z-index: 9;
+}
+
+.heroHI {
+  font-size: 56px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 14vh;
+}
+
+.takeawayHeroCaption {
+  font-size: 4.6vh;
+}
+
+.takeawayHeroOrderNowBtn {
+  background: #df5353;
+  border-radius: 3px;
+  padding: 12px 24px;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #fefefe;
+}
+
+.takeawayHeroCaptionII {
+  font-weight: 500;
+  font-size: 5.5vh;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: #181818;
+  text-align: center;
+}
+
+.takeawayItemContainer {
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.takeawaySaleContainerI,
+.takeawaySaleContainerII,
+.takeawaySaleContainerIII,
+.takeawaySaleContainerIV,
+.takeawaySaleContainerV {
+  padding: 16px;
+  gap: 16px;
+  border-radius: 20px;
+  width: 190px;
+  margin: 20px;
+}
+
+.takeawaySaleContainerI {
+  background: #fff9ea;
+}
+
+.takeawaySaleContainerII {
+  background: #fce7e7;
+}
+
+.takeawaySaleContainerIII {
+  background: #eef8e7;
+}
+.takeawaySaleContainerIV {
+  background: #eaf1fe;
+}
+.takeawaySaleContainerV {
+  background: #f5f3ff;
+}
+.takeawayCardHeadingI,
+.takeawayCardHeadingII,
+.takeawayCardHeadingIII,
+.takeawayCardHeadingIV,
+.takeawayCardHeadingV {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4vh;
+  letter-spacing: -0.02em;
+}
+
+.takeawayCardHeadingI {
+  color: #604709;
+}
+.takeawayCardHeadingII {
+  color: #5b1010;
+}
+.takeawayCardHeadingIII {
+  color: #1e3a09;
+}
+.takeawayCardHeadingIV {
+  color: #04173c;
+}
+.takeawayCardHeadingV {
+  color: #190d61;
+}
+
+.takeawayCardContentI,
+.takeawayCardContentII,
+.takeawayCardContentIII,
+.takeawayCardContentIV,
+.takeawayCardContentV {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vh;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.takeawayDiscoverBtnI,
+.takeawayDiscoverBtnII,
+.takeawayDiscoverBtnIII,
+.takeawayDiscoverBtnIV,
+.takeawayDiscoverBtnV {
+  padding: 10px 24px;
+  gap: 8px;
+  width: 146px;
+  height: 38px;
+  border-radius: 3px;
+  font-size: 2vh;
+}
+
+.takeawayDiscoverBtnI {
+  background: #ffe296;
+  color: #604709;
+}
+.takeawayDiscoverBtnII {
+  background: #ee8787;
+  color: #5b1010;
+}
+
+.takeawayDiscoverBtnIII {
+  background: #acda86;
+  color: #1e3a09;
+}
+.takeawayDiscoverBtnIV {
+  background: #94b7fa;
+  color: #04173c;
+}
+.takeawayDiscoverBtnV {
+  background: #ccc2ff;
+  color: #190d61;
+}
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+  .takeawayHeroSectionPartI {
+    height: 45vh;
+  }
+  .heroHI {
+    padding-top: 5.8vh;
+    font-size: 4.8vh;
+  }
+  .takeawayHeroCaption {
+    font-size: 2.6vh;
+  }
+  .takeawayHeroOrderNowBtn {
+    padding: 8px 14px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .takeawayHeroCaptionII {
+    font-weight: 500;
+    font-size: 3.5vh;
+    text-align: center;
+  }
+  .takeawaySaleContainerI,
+  .takeawaySaleContainerII,
+  .takeawaySaleContainerIII,
+  .takeawaySaleContainerIV,
+  .takeawaySaleContainerV {
+    padding: 16px;
+    gap: 16px;
+    width: 240px;
+    margin: 20px;
+  }
+  .takeawayDiscoverBtnI,
+  .takeawayDiscoverBtnII,
+  .takeawayDiscoverBtnIII,
+  .takeawayDiscoverBtnIV,
+  .takeawayDiscoverBtnV {
+    padding: 10px 24px;
+    gap: 8px;
+    width: 180px;
+    height: 48px;
+  }
+}
+
+/* Small screen devices (600px and below) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .takeawayHeroSectionPartI {
+    height: 45vh;
+  }
+  .heroHI {
+    padding-top: 5.8vh;
+    font-size: 5.8vh;
+  }
+  .takeawayHeroCaption {
+    font-size: 2.8vh;
+  }
+  .takeawaySaleContainerI,
+  .takeawaySaleContainerII,
+  .takeawaySaleContainerIII,
+  .takeawaySaleContainerIV,
+  .takeawaySaleContainerV {
+    padding: 16px;
+    gap: 16px;
+    width: 285px;
+  }
+  .takeawayDiscoverBtnI,
+  .takeawayDiscoverBtnII,
+  .takeawayDiscoverBtnIII,
+  .takeawayDiscoverBtnIV,
+  .takeawayDiscoverBtnV {
+    padding: 10px 24px;
+    gap: 8px;
+    width: 225px;
+    height: 58px;
+  }
+}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .takeawayHeroSectionPartI {
+    height: 60vh;
+  }
+  .heroHI {
+    font-size: 4.8vh;
+  }
+  .takeawayHeroCaption {
+    font-size: 2.8vh;
+  }
+  .takeawayHeroCaptionII {
+    font-size: 3.8vh;
+  }
+  .takeawaySaleContainerI,
+  .takeawaySaleContainerII,
+  .takeawaySaleContainerIII,
+  .takeawaySaleContainerIV,
+  .takeawaySaleContainerV {
+    padding: 16px;
+    gap: 16px;
+    width: 295px;
+  }
+  .takeawayCardHeadingI,
+  .takeawayCardHeadingII,
+  .takeawayCardHeadingIII,
+  .takeawayCardHeadingIV,
+  .takeawayCardHeadingV {
+    font-size: 2vh;
+  }
+  .takeawayDiscoverBtnI,
+  .takeawayDiscoverBtnII,
+  .takeawayDiscoverBtnIII,
+  .takeawayDiscoverBtnIV,
+  .takeawayDiscoverBtnV {
+    padding: 10px 24px;
+    gap: 8px;
+    width: 225px;
+    height: 58px;
+  }
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1025px) {
+  .takeawayHeroSectionPartI {
+    height: 60vh;
+  }
+  .heroHI {
+    font-size: 6.8vh;
+  }
+  .takeawayHeroCaption {
+    font-size: 4.8vh;
+  }
+  .takeawayDiscoverBtnI,
+  .takeawayDiscoverBtnII,
+  .takeawayDiscoverBtnIII,
+  .takeawayDiscoverBtnIV,
+  .takeawayDiscoverBtnV {
+    width: 176px;
+    height: 46px;
+  }
+  .takeawaySaleContainerI,
+  .takeawaySaleContainerII,
+  .takeawaySaleContainerIII,
+  .takeawaySaleContainerIV,
+  .takeawaySaleContainerV {
+    padding: 16px;
+    gap: 16px;
+    width: 235px;
+  }
+}

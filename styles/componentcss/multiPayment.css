@@ -1,0 +1,173 @@
+.multiPaymentContainer{
+    min-height: 60vh;
+    margin: 100px 0 50px 0;
+}
+
+.multiPaymentTitle {
+    border-radius: 10px;
+    font-size: 5.4vh;
+    font-weight: 400;
+}
+.multiPaymentsAnimationContainer {
+    min-height: 20vh;
+    margin: 5vh 0;
+}
+.imageI, .imageII, .imageIII, .imageIV {
+    height: 20vh;
+    width:20vh;
+    margin: 0 10px;
+}
+.multiPaymentsImageContainer{
+    height:100%;
+    width: 100%;
+}
+
+.multPaymentCaption {
+    font-size: 2vh;
+    font-weight: 400;
+}
+
+.bottomImage {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(0);
+    width: 100px;
+    height: 100px
+}
+
+/* .imageI,.imageII,.imageIII,.imageIV {
+    transform: translateY(-200px);
+}
+ */
+ .imageI, .imageII, .imageIII, .imageIV {
+    width: 18vh;
+    height: 18vh;
+}
+ .imageI {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all .5s ease-in-out;
+ }
+.imageI.show {
+    transform: translateY(0);
+    opacity: 1;
+    transition-delay: .4s;
+}
+ .imageII {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all .5s ease-in-out;
+ }
+.imageII.show {
+    transform: translateY(-5px);
+    opacity: 1;
+    transition-delay: .8s;
+}
+ .imageIII {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all .5s ease-in-out;
+ }
+.imageIII.show {
+    transform: translateY(0);
+    opacity: 1;
+    transition-delay: 1.2s;
+}
+ .imageIV {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all .5s ease-in-out;
+ }
+.imageIV.show {
+    transform: translateY(0);
+    opacity: 1;
+    transition-delay: 1.6s;
+}
+
+/* Responsive */
+
+@media (min-width:1040px) and (max-width:1399px){
+    .multiPaymentContainer {
+        margin-bottom:0;
+    }
+}
+
+@media (min-width: 600px) and (max-width:1039px) {
+    .multiPaymentTitle {
+        font-size: 3vh;
+    }
+    .multPaymentCaption {
+        font-size: 1.8vh;
+    }
+    .multiPaymentsAnimationContainer {
+        max-height: 15vh;
+        min-height: 12vh;
+    }
+    .imageI, .imageII, .imageIII, .imageIV {
+        width: 14vh;
+        height: 14vh;
+    }
+    .multiPaymentContainer {
+        margin: 0px 0px 0px 0px;
+        min-height: 50vh;
+    }
+    
+}
+@media (max-width:599px) {
+    .multiPaymentTitle {
+        font-size: 32px !important;
+        text-align: center;
+        margin: 0 15px;
+        /* line-height: 40px; */
+        letter-spacing: -1px;
+        width: 90%;
+    }
+    .multPaymentCaption {
+        margin: 0 15px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .multPaymentCaption {
+        font-size: 16px;
+    }
+   /*  .multiPaymentsAnimationContainer {
+        max-height: 15vh;
+        min-height: 12vh;
+    } */
+    .imageI, .imageII, .imageIII, .imageIV {
+        width: 20vh;
+        height: 20vh;
+        margin: 5px 10px;
+    }
+    .imageII {
+        margin-bottom: -3px;
+    }
+    .multiPaymentContainer {
+        margin: 0px 0px 0px 0px;
+        min-height: 70vh;
+    }
+    .textIconContainer {
+        width: 3.8rem;
+        height: 2.6rem;
+        top: -25px;
+        right: -12px;
+    }
+    .imageI,.imageII,.imageIII,.imageIV {
+        transform: translateY(50px);
+    }
+}
+
+@media (max-width:320px) {
+    .imageI, .imageII, .imageIII, .imageIV {
+        margin: 5px;
+    }
+    .imageII {
+        margin-bottom: -3px;
+    }
+}
+@media (max-width:550px) and (min-height:700px){
+    .multiPaymentsAnimationContainer {
+        margin: 5vh 0 0 0;
+    }
+}

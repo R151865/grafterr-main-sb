@@ -1,0 +1,230 @@
+.freeForeverContainer {
+    height: 120vh;
+    position: relative;
+}
+.freeForeverContainerTitle {
+    font-size: 5.5vh;
+    font-weight: 400;
+    margin: 50px 0 100px 0;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.freeForeverCard {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 15px rgba(0, 0, 0, 0.11));
+    text-align: center;
+    padding:30px 40px 40px 40px;
+    width: 28%;
+}
+
+.freeForeverCard >h3,.freeForeverCard > p, .freeForeverCard >span  {
+    margin: 10px;
+}
+
+.freeForeverCard >h3 {
+    font-size:5vh;
+    font-weight:400;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.freeForeverCard >span {
+    font-weight: 700;
+    font-size: 2vh; /*for 20px in figma*/
+    /* margin: 0px 10px 5px 0px; */
+}
+.freeForeverCard >p {
+    font-weight: 500;
+    font-size: 1.8vh; /*for 24px in figma*/
+}
+
+.freeForeverCard >p:nth-of-type(2){
+    font-weight: 700;
+    font-size: 2vh;
+    margin: 20px 0;
+}
+
+.freeForeverCardInfo {
+    margin-top: 0px !important;
+    font-size: 1.8vh !important;
+}
+.freeForeverList {
+   list-style: initial;
+   list-style-position: inside;
+   margin: 15px 0 25px 0;
+}
+
+.freeForeverList li {
+    font-weight: 400;
+    font-size: 1.8vh;
+    text-align: center;
+    margin: 5px 0;
+    text-align: center;
+    color: #181818;
+    line-height: 2.8vh;
+}
+
+.freeForeverbutton {
+    background: #DF5353;
+    border-radius: 3px;
+    height: 50px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2vh;
+}
+
+.cardIcon {
+    width: 95px;
+    height: 70px;
+}
+
+/*Media queries */
+/* tablet */
+@media (min-width:1040px) and (max-width:1399px){
+    .freeForeverContainer {
+        height: 100vh;
+    }
+    .freeForeverContainerTitle {
+        font-size: 3.5vh;
+        margin: 30px 0 60px 0;
+    }
+    .freeForeverCard {
+        background: #FFFFFF;
+        padding: 10px 0px 20px 0px;
+        width: 30%;
+    }
+    .freeForeverCard >span {
+        font-size: 2.2vh;
+        font-weight: 600;
+        margin: 5px 10px;
+    }
+    .freeForeverCard >p:nth-of-type(2) {
+        margin: 10px 0 0 0;
+        width:85%;
+        line-height: 3.4vh;
+        font-size: 2.2vh;
+    }
+    .freeForeverList {
+        margin: 10px 0 25px 0;
+    }
+    .freeForeverList li::marker {
+        font-size: 1.27em;
+    }
+    .cardIcon {
+        width: 75px;
+        height: 50px;
+    } 
+}
+@media (min-width:600px) and (max-width:1029px){
+    .freeForeverContainer {
+        height: 90vh;
+    }
+    .freeForeverContainerTitle {
+        font-size: 3.5vh;
+        margin: 30px 0 60px 0;
+    }
+    .freeForeverbutton {
+        font-size: 1.6vh;
+    }
+    .freeForeverCard >h3 {
+        font-size: 4.5vh;
+    }
+    .freeForeverCard {
+        background: #FFFFFF;
+        padding: 10px 0px 20px 0px;
+        width: 52%;
+    }
+    .freeForeverCard >span {
+        font-size: 1.8vh;
+        font-weight: 600;
+        margin: 5px 10px;
+    }
+    .freeForeverCardInfo {
+        font-size: 1.6vh;
+    }
+    .freeForeverCard >p:nth-of-type(2) {
+        margin: 10px 0;
+        width:85%;
+        line-height: 3vh;
+        font-size: 1.8vh;
+    }
+    .freeForeverList li {
+        font-size: 1.6vh;
+    }
+    .freeForeverList li::marker {
+        font-size: 1.27em;
+    }
+    .cardIcon {
+        width: 75px;
+        height: 50px;
+    } 
+}
+@media (max-width:599px){
+    .freeForeverContainer {
+        height: auto;
+        padding: 20px 0;
+    }
+    .freeForeverContainer {
+        margin: 0;
+    }
+    .freeForeverContainerTitle {
+        font-size: 32px;
+        margin: 30px 0;
+        font-weight: 400;
+        padding: 0 20px;
+    }
+    .freeForeverCard >h3 {
+        font-size: 48px;
+    }
+    .freeForeverCard {
+        background: #FFFFFF;
+        padding: 10px 0px 20px 0px;
+        width: 90%;
+    }
+    .freeForeverCard >span {
+        font-weight: 700;
+        font-size: 20px;
+        margin: 5px 10px;
+    }
+    .freeForeverCardInfo {
+        font-size: 12px !important;
+    }
+    .freeForeverCard >p:nth-of-type(2) {
+        margin: 10px 0;
+        width:85%;
+        line-height: 28px;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .freeForeverList li {
+        font-size: 14px;
+    }
+    .freeForeverList li::marker {
+        font-size: 1.27em;
+    }
+    .cardIcon {
+        width: 70px;
+        height: 50px;
+        display: none;
+    } 
+    .lowCostiOSContainer, .lowCostAndroidContainer {
+        width: auto;
+    }
+    .lowCostiOSContainer img, .lowCostAndroidContainer img{
+        border-radius: 5px;
+    }
+    .mobileAppFreeContainer {
+        font-weight: 400;
+    }
+    .freeForeverbutton {
+        font-size: 16px;
+    }
+}
+
+

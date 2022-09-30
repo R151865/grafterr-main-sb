@@ -1,0 +1,267 @@
+.takeAwayContainer {
+  min-height: 100vh;
+}
+
+.takeAwayBody {
+  width: 90%;
+}
+
+.takeAwayTextContainer {
+  width: 100%;
+}
+
+.takeAwayHeading {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  color: #181818;
+}
+
+.takeAwayPara {
+  color: #454545;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.takeAwayButton {
+  padding: 2vh 2.5vh;
+  font-size: 14px;
+  color: #ffffff;
+  border-radius: 5px;
+  background: #4a7ee4;
+  border-radius: 3px;
+}
+
+.takeAwayCardList {
+  width: 100%;
+}
+
+.takeAwayCard {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 200px;
+  height: 80px;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
+}
+
+.takeAwayCardImage {
+  height: 30px;
+  width: 20px;
+}
+
+.takeAwayCardPara {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #181818;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */
+  .takeAwayPara {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .takeAwayHeading {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .takeAwayButton {
+    font-size: 12px;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* Styles */
+  .takeAwayPara {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .takeAwayHeading {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .takeAwayButton {
+    font-size: 13px;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles */
+
+  .takeAwayTextContainer {
+    width: 40%;
+  }
+
+  .takeAwayCardList {
+    width: 60%;
+  }
+
+  .takeAwayHeading {
+    font-size: 4vh;
+    line-height: 5.5vh;
+  }
+
+  .takeAwayPara {
+    font-size: 2.4vh;
+    line-height: 5vh;
+  }
+
+  .takeAwayButton {
+    font-size: 2.2vh;
+    padding: 2vh;
+  }
+
+  .takeAwayCard {
+    width: 120px;
+    height: 70px;
+    padding: 5px;
+  }
+
+  .takeAwayCardImage {
+    height: 30px;
+    width: 20px;
+  }
+
+  .takeAwayCardPara {
+    font-size: 2vh;
+    line-height: 2vh;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-width: 1024px) {
+  /* Styles */
+
+  .takeAwayTextContainer {
+    width: 40%;
+  }
+
+  .takeAwayCardList {
+    width: 60%;
+  }
+
+  .takeAwayHeading {
+    font-size: 4vh;
+    line-height: 5.5vh;
+  }
+
+  .takeAwayPara {
+    font-size: 2.4vh;
+    line-height: 5vh;
+  }
+
+  .takeAwayButton {
+    font-size: 2.2vh;
+    padding: 2vh;
+  }
+
+  .takeAwayCard {
+    width: 150px;
+    height: 80px;
+  }
+
+  .takeAwayCardImage {
+    height: 35px;
+    width: 25px;
+  }
+
+  .takeAwayCardPara {
+    font-size: 2.2vh;
+    line-height: 2.5vh;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+  .takeAwayTextContainer {
+    width: 40%;
+  }
+
+  .takeAwayCardList {
+    width: 60%;
+  }
+
+  .takeAwayBody {
+    width: 80%;
+  }
+
+  .takeAwayHeading {
+    font-size: 4.5vh;
+    line-height: 6vh;
+  }
+
+  .takeAwayPara {
+    font-size: 2.5vh;
+    line-height: 4.5vh;
+  }
+
+  .takeAwayButton {
+    font-size: 2.2vh;
+    padding: 2vh;
+  }
+
+  .takeAwayCard {
+    width: 180px;
+    height: 90px;
+  }
+
+  .takeAwayCardImage {
+    height: 30px;
+    width: 20px;
+    margin-bottom: -10px;
+  }
+
+  .takeAwayCardPara {
+    font-size: 1.8vh;
+    line-height: 2.2vh;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+  .takeAwayHeading {
+    font-size: 4vh;
+    line-height: 5.5vh;
+  }
+
+  .takeAwayPara {
+    font-size: 2.2vh;
+    line-height: 4vh;
+  }
+
+  .takeAwayButton {
+    font-size: 2vh;
+    padding: 2vh 2.5vh;
+  }
+
+  .takeAwayCard {
+    width: 250px;
+    height: 100px;
+  }
+
+  .takeAwayCardImage {
+    height: 40px;
+    width: 30px;
+  }
+
+  .takeAwayCardPara {
+    font-size: 1.5vh;
+    line-height: 2vh;
+  }
+}

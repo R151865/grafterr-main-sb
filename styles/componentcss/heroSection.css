@@ -1,0 +1,406 @@
+.grafterrHeroImage {
+    width: 100%;
+    object-fit: cover;
+}
+.heroHIContainer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    z-index: 9;
+}
+.heroHI {
+    font-size: 12vh;
+    font-weight: 700;
+    color: #fff;
+    line-height:14vh;
+}
+
+.grafterHeroCaption {
+    font-size: 2.8vh;
+    font-weight: 400;
+    color: #DDDDDD;
+    line-height: 3.6vh;
+}
+
+.grafterHeroOrderNowBtn {
+    padding: 8px 42px;
+    background: #F0F0F0;
+    border-radius: 3px;
+    font-size: 1.6vh;
+    color: #323232;
+    font-weight: 700;
+}
+
+.grafterrHeroSectionPartII {
+    background: linear-gradient(94.84deg, #CA2513 0.24%, #E95F5F 47%, #FFD873 100%);
+    height: 46%;
+    color: #fff;
+    margin-top: 8vh;
+    position: relative;
+}
+.grafterheroSellH1 {
+    font-size: 5.4vh;
+    font-weight: 400;
+    display: inline-block;
+}
+.grafterheroSellP {
+    font-size: 2.1vh;
+    line-height: 3.4vh;
+    font-weight: 200;
+    color: #FEFEFE;
+    letter-spacing: 1px;
+}
+
+/* svg icons */
+.heroSectionImgContainer{
+    position:relative;
+}
+.heroSectionImgContainerI,.heroSectionImgContainerII,.heroSectionImgContainerIII,.heroSectionImgContainerIV {
+   position: absolute;
+}
+.heroSectionImgContainerI {
+   height: 3vh;
+   width: 3vh;
+   top: 5%;
+   left: 5%;
+}
+.heroSectionImgContainerII {
+    top: 20%;
+    right: 0%;
+    height: 5vh;
+    width: 5vh;
+}
+.heroSectionImgContainerIII {
+    bottom: 0;
+    left: 0;
+    height: 8vh;
+    width: 7vh;
+}
+.heroSectionImgContainerIV {
+    bottom: 20%;
+    right: 10%;
+    height: 8vh;
+    width: 8vh;
+}
+
+.iconDiv {
+    position: absolute;
+    top: -25%;
+    right: -10%;
+    width: 72px;
+    height: 44px;
+}
+
+/* media query */
+@media (min-width:1080px) and (max-width:1399px){
+    .heroHI {
+        font-size: 10vh;
+        line-height: 12vh;
+    }
+    .grafterheroSellH1 {
+        font-size: 4.8vh;
+    }
+    .grafterHeroCaption {
+        font-size: 2.4vh;
+    }
+    .grafterheroSellP {
+        font-size: 2vh;
+    }
+    .heroSectionImgContainerI {
+        width:5vh;
+        height:5vh;
+    }
+    .heroSectionImgContainerIV {
+        width: 5vh;
+        height: 5vh;
+        bottom: 5%;
+    }
+    .heroSectionImgContainerII {
+        display: none;
+    }
+    .iconDiv {
+        position: absolute;
+        top: -20%;
+        width: 6.5vh;
+        height: 4.5vh;
+    }
+    .grafterHeroOrderNowBtn {
+        padding: 10px 42px;
+        font-size: 1.8vh;
+    }
+}
+
+@media (min-width:600px) and (max-width:1079px) {
+    .heroHI {
+        font-size: 7vh;
+        line-height: 10vh;
+    }
+    .grafterHeroCaption {
+        font-size: 2.2vh;
+    }
+    .grafterHeroOrderNowBtn {
+        padding: 8px 32px;
+        margin-top: 30px;
+    }
+    .grafterheroSellH1 {
+        font-size: 3vh;
+    }
+    .grafterheroSellP {
+        font-size: 1.6vh;
+        line-height: 2.4vh;
+    }
+    .grafterheroSellP {
+        padding:0px 0px 20px 30px;
+    }
+    .grafterheroSellH1,.grafterHeroSellpButtons {
+        padding-left:30px;
+    }
+    .heroSectionImgContainerI {
+        height: 4vh;
+        width: 4vh;
+    }
+    .heroSectionImgContainerIV {
+        height: 3vh;
+        width: 3vh;
+    }
+    .iconDiv {
+        width: 5vh;
+        height: 3vh;
+    }
+    .heroSellContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+@media (max-width:599px) {
+    .grafterrHeroSectionPartI {
+        height: 42% !important;
+    }
+    .heroHIContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grafterrHeroSectionPartII {
+        height: 58%;
+        background: linear-gradient(135.45deg, #CA2513 7.33%, #E95F5F 59.22%, #FFD873 114.47%);
+    }
+    .heroHI {
+        font-size: 48px;
+        line-height: 48px;
+        padding: 0 20px;
+        font-weight: 700;
+        letter-spacing: -1px;
+    }
+    .grafterHeroCaption {
+        margin-top: 10px;
+        font-size: 16px;
+        padding:0 20px;
+        width: 75%;
+        line-height: 24px;
+    }
+    .grafterheroSellH1 {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: -1px;
+        padding: 0px 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .grafterHeroOrderNowBtn {
+        padding: 8px 32px;
+        margin-top: 30px;
+        padding-top: 4px;
+        border-radius: 5px;
+    }
+    .grafterheroSellP {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .grafterheroSellP {
+        padding:0px;
+    }
+    /* .grafterheroSellH1,.grafterHeroSellpButtons {
+        padding-left:50px;
+    } */
+    .heroSectionImgContainerI {
+        height: 4vh;
+        width: 4vh;
+    }
+    .heroSectionImgContainerIV {
+        height: 3vh;
+        width: 3vh;
+    }
+    .iconDiv {
+        width: 5vh;
+        height: 3vh;
+    }
+    .heroSellContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 100%;
+    }
+    .grafterHeroSellpButtons {
+        justify-content: space-around;
+        padding: 0;
+    }
+    .imgContainerParent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    /* background Icon */
+    .heroSectionImgContainerI {
+        height: 8vh;
+        width: 8vh;
+        left: 0%;
+        transform: translateX(-50%);
+        top: 10%;
+    }
+    .heroSectionImgContainerV {
+        height: 8vh;
+        width: 8vh;
+        position: absolute;
+        top: 0%;
+        right:0;
+    }
+    .heroSectionImgContainerVI {
+        height: 8vh;
+        width: 8vh;
+        position: absolute;
+        bottom:0%;
+        right: 0%;
+    }
+
+    .heroSectionImgContainerIV {
+        width: 8vh;
+        height: 8vh;
+        left: 0%;
+        top: 40%;
+        transform: translateX(-50%);
+    }
+    .mobileImageHero {
+        height: 150px;
+        width: 150px;
+        position: relative;
+    }
+    .grafterHeroOrderNowBtn {
+        margin-top: 15px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width:550px) and (max-height:650px) {
+    .heroSection {
+        height: 110vh;
+    }
+    .heroHI {
+        font-size: 38px;
+        line-height: 38px;
+        width: 100%;
+    }
+  /*   .grafterheroSellH1 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    .grafterheroSellP {
+        font-size: 14px;
+        line-height: 20px;
+    } */
+}
+
+@media (max-width:550px) and (min-height:720px) {
+    .heroSection {
+        height: 92vh;
+    }
+    .heroSellContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 100%;
+    }
+    .grafterheroSellP {
+        font-size: 2vh;
+        line-height: 3vh;
+    }
+    .grafterheroSellH1 {
+        font-size: 4vh;
+        line-height: 5.5vh;
+    }
+    .mobileImageHero {
+        width: 175px;
+        height: 175px;
+    }
+    .heroHI {
+        font-size: 58px;
+        line-height: 68px;
+    }
+}
+
+@media (max-width:550px) and (min-height:500px) and (max-height:600px) {
+    .grafterrHeroSectionPartIISub {
+        padding-top: 5px;
+    }
+    .grafterheroSellH1 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .grafterheroSellP {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .mobileImageHero {
+        height: 140px;
+        width: 140px;
+    }
+    .grafterHeroSellpButtons .imageContainer {
+        height: 40px;
+        margin: 15px 0;
+    }
+
+}
+@media (max-width:400px) and (max-height:500px) {
+    .grafterrHeroSectionPartIISub {
+        padding-top: 5px;
+    }
+    .grafterheroSellH1 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .grafterheroSellP {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .mobileImageHero {
+        height: 130px;
+        width: 130px;
+    }
+    .grafterHeroSellpButtons .imageContainer {
+        height: 30px;
+        margin: 25px 0;
+    }
+    .grafterHeroSellpButtons{
+        margin-top: -20px;
+    }
+}

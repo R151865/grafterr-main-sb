@@ -1,0 +1,103 @@
+.body {
+  background: #181818;
+  /* border-radius: 80px; */
+  border-radius: 4vh;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 576px) {
+  .body {
+    width: 100%;
+    background: #181818;
+    border-radius: 0;
+  }
+}
+
+.textContainer {
+  width: 40%;
+  max-width: 400px;
+}
+
+@media (max-width: 576px) {
+  .textContainer {
+    width: 90%;
+    max-width: 400px;
+  }
+}
+
+.imageContainer {
+  width: 50%;
+  /* background-color: red; */
+}
+
+@media (max-width: 576px) {
+  .imageContainer {
+    width: 95%;
+    /* background-color: red; */
+  }
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 4.5vh;
+  line-height: 6vh;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+
+@media (max-width: 576px) {
+  .heading {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+.para {
+  font-weight: 400;
+  font-size: 2.5vh;
+  line-height: 4vh;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+
+@media (max-width: 576px) {
+  .para {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+
+.buyNowButton {
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  border-radius: 3px;
+  border: 1px solid #ffffff;
+  padding: 10px 20px;
+}
+
+@media (max-width: 576px) {
+  .buyNowButton {
+    font-size: 13px;
+    padding: 8px 15px;
+  }
+}
+
+.learnMoreButton {
+  margin-left: 25px;
+  font-size: 16px;
+  padding: 10px 20px;
+  background: #f55050;
+  border-radius: 3px;
+  color: #ffffff;
+}
+
+@media (max-width: 576px) {
+  .learnMoreButton {
+    font-size: 13px;
+    padding: 8px 15px;
+  }
+}

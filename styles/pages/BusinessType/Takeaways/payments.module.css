@@ -1,0 +1,372 @@
+.takeAwayContainer {
+  min-height: 100vh;
+}
+
+.takeAwayBody {
+  width: 90%;
+}
+
+.takeAwayTextContainer {
+  width: 100%;
+  z-index: 1;
+}
+
+.takeAwayHeading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #181818;
+}
+
+.takeAwaySubHeading {
+  font-weight: 400;
+  font-size: 16x;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #181818;
+}
+
+.takeAwayPara {
+  color: #454545;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.takeAwayButton {
+  padding: 2vh 2.5vh;
+  font-size: 14px;
+  color: #294613;
+  border: 1px solid #294613;
+  border-radius: 5px;
+}
+
+.takeAwayListText {
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #454545;
+}
+
+.takeAwayImageContainer {
+  width: 90%;
+}
+
+.takeAwayCard {
+  padding: 8px;
+  width: 150px;
+  height: 120px;
+  background: rgba(254, 254, 254, 0.8);
+  border: 1px solid #f4f4f4;
+  box-shadow: 4px 6px 11px rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+}
+
+.takeAwayCardHeading {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -1px;
+  color: #181818;
+}
+
+.takeAwayCardPara {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  color: #181818;
+}
+
+.takeAwayAnchorElement {
+  color: #454545;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */
+  .takeAwayPara {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .takeAwayHeading {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .takeAwaySubHeading {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .takeAwayButton {
+    font-size: 12px;
+  }
+
+  .takeAwayListText {
+    font-size: 10px;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* Styles */
+  .takeAwayPara {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .takeAwayHeading {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .takeAwaySubHeading {
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  .takeAwayButton {
+    font-size: 13px;
+  }
+  .takeAwayListText {
+    font-size: 11px;
+  }
+
+  .takeAwayCard {
+    padding: 10px;
+    width: 170px;
+    height: 140px;
+  }
+
+  .takeAwayCardHeading {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .takeAwayCardPara {
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .takeAwayAnchorElement {
+    font-size: 13px;
+    line-height: 26px;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles */
+
+  .takeAwayTextContainer {
+    width: 40%;
+  }
+
+  .takeAwayImageContainer {
+    width: 60%;
+  }
+
+  .takeAwayHeading {
+    font-size: 4vh;
+    line-height: 5.5vh;
+  }
+
+  .takeAwaySubHeading {
+    font-size: 2.8vh;
+    line-height: 4.5vh;
+  }
+
+  .takeAwayPara {
+    font-size: 2.4vh;
+    line-height: 5vh;
+  }
+
+  .takeAwayButton {
+    font-size: 2.2vh;
+    padding: 2vh;
+  }
+
+  .takeAwayListText {
+    font-size: 2vh;
+    line-height: 3.5vh;
+  }
+
+  .takeAwayCard {
+    padding: 10px;
+    width: 120px;
+    height: 110px;
+  }
+
+  .takeAwayCardHeading {
+    font-size: 5vh;
+    line-height: 6.5vh;
+  }
+
+  .takeAwayCardPara {
+    font-size: 3vh;
+    line-height: 4.5vh;
+  }
+
+  .takeAwayAnchorElement {
+    font-size: 2vh;
+    line-height: 3.5vh;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-width: 1024px) {
+  /* Styles */
+
+  .takeAwayTextContainer {
+    width: 40%;
+  }
+
+  .takeAwayImageContainer {
+    width: 60%;
+  }
+
+  .takeAwayHeading {
+    font-size: 4vh;
+    line-height: 5.5vh;
+  }
+
+  .takeAwaySubHeading {
+    font-size: 3vh;
+    line-height: 4.5vh;
+  }
+
+  .takeAwayPara {
+    font-size: 2.4vh;
+    line-height: 5vh;
+  }
+
+  .takeAwayButton {
+    font-size: 2.2vh;
+    padding: 2vh;
+  }
+
+  .takeAwayListText {
+    font-size: 2vh;
+    line-height: 3.5vh;
+  }
+
+  .takeAwayCard {
+    padding: 10px;
+    width: 120px;
+    height: 110px;
+  }
+
+  .takeAwayCardHeading {
+    font-size: 5vh;
+    line-height: 6.5vh;
+  }
+
+  .takeAwayCardPara {
+    font-size: 3vh;
+    line-height: 4.5vh;
+  }
+
+  .takeAwayAnchorElement {
+    font-size: 2vh;
+    line-height: 3.5vh;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+  .takeAwayTextContainer {
+    width: 40%;
+  }
+
+  .takeAwayImageContainer {
+    width: 60%;
+  }
+
+  .takeAwayBody {
+    width: 80%;
+  }
+
+  .takeAwayHeading {
+    font-size: 4.5vh;
+    line-height: 6vh;
+  }
+
+  .takeAwaySubHeading {
+    font-size: 3vh;
+    line-height: 5vh;
+  }
+
+  .takeAwayPara {
+    font-size: 2.5vh;
+    line-height: 4.5vh;
+  }
+
+  .takeAwayButton {
+    font-size: 2.2vh;
+    padding: 2vh;
+  }
+
+  .takeAwayListText {
+    font-size: 2vh;
+    line-height: 3.5vh;
+  }
+
+  .takeAwayCard {
+    padding: 15px;
+    width: 25vh;
+    height: 22vh;
+   
+  }
+
+  .takeAwayCardHeading {
+    font-size: 6vh;
+    line-height: 7.5vh;
+  }
+
+  .takeAwayCardPara {
+    font-size: 3vh;
+    line-height: 4.5vh;
+  }
+
+  .takeAwayAnchorElement {
+    font-size: 2vh;
+    line-height: 3.5vh;
+  }
+
+
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+  .takeAwayHeading {
+    font-size: 4vh;
+    line-height: 5.5vh;
+  }
+
+  .takeAwaySubHeading {
+    font-size: 3vh;
+    line-height: 5vh;
+  }
+
+  .takeAwayPara {
+    font-size: 2.2vh;
+    line-height: 4vh;
+  }
+
+  .takeAwayButton {
+    font-size: 2vh;
+    padding: 2.5vh;
+  }
+
+  .takeAwayListText {
+    font-size: 1.5vh;
+  }
+}

@@ -1,0 +1,83 @@
+.body {
+  /* background-color: red; */
+  /* width: 90%;
+      margin: auto; */
+  /* width: 90%;
+    margin: auto; */
+  /* background-color: red; */
+}
+
+.textContainer {
+  width: 90%;
+  z-index: 1;
+  /* background-color: red; */
+  /* margin: auto; */
+  /* max-width: 400px; */
+}
+
+@media screen and (min-width: 768px) {
+  .textContainer {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .textContainer {
+    width: 40%;
+    max-width: 400px;
+  }
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #df5353;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (min-width: 1028px) {
+  .heading {
+    font-size: 34px;
+  }
+}
+
+.para {
+  color: #454545;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.button {
+  color: #8f0707;
+  border: 1px solid #8f0707;
+  border-radius: 5px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+.imageContainer {
+  width: 85%;
+  /* margin: auto; */
+}
+
+@media screen and (min-width: 768px) {
+  .imageContainer {
+    width: 60%;
+    max-width: 600px;
+  }
+}
+
+.imageIconRight {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

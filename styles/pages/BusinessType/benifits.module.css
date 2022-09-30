@@ -1,0 +1,95 @@
+.body {
+  width: 90%;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.textContainer {
+  width: 40%;
+}
+
+@media (max-width: 576px) {
+  .textContainer {
+    width: 100%;
+  }
+}
+
+.cardList {
+  width: 60%;
+}
+
+@media (max-width: 576px) {
+  .cardList {
+    width: 100%;
+  }
+}
+
+.heading {
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: #181818;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+@media (max-width: 576px) {
+  .heading {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+.button {
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  padding: 15px 20px;
+  background: #4a7ee4;
+  border-radius: 3px;
+}
+
+@media (max-width: 576px) {
+  .button {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+}
+
+.card {
+  padding: 20px 25px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 25%;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 40%;
+    padding: 15px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+  }
+}
+
+.cardPara {
+  font-weight: 400;
+  font-size: 2.5vh;
+  /* line-height: 32px; */
+  letter-spacing: -0.02em;
+  color: #181818;
+}
+
+@media (max-width: 576px) {
+  .cardPara {
+    font-size: 14px;
+    /* line-height: 20px; */
+    color: #181818;
+  }
+}

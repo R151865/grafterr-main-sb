@@ -1,0 +1,86 @@
+.body {
+  width: 95%;
+}
+
+@media (min-width: 1300px) {
+  .body {
+    width: 80%;
+  }
+}
+
+.footerLogo {
+  height: 50px;
+  width: 100px;
+}
+@media (min-width: 768px) {
+  .footerLogo {
+    height: 70px;
+    width: 140px;
+  }
+}
+
+.scrollupIcon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid #cbcbcb;
+}
+
+.footerItemsList {
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  .footerItemsList {
+    width: 70%;
+  }
+}
+
+.footItemHead {
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: -1px;
+  color: #181818;
+}
+
+.footItemLink {
+  font-weight: 400;
+  font-size: 14px;
+  color: #181818;
+}
+
+.footerInput {
+  width: 70%;
+  height: 40px;
+  padding-left: 10px;
+  background: #ffffff;
+  border: 1px solid #cbcbcb;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #858585;
+}
+
+@media (min-width: 768px) {
+  .footerInput {
+    width: 50%;
+    max-width: 350px;
+  }
+}
+
+.footerFormButton {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: #df5353;
+  border: 1px solid #df5353;
+  padding: 8px 14px;
+}
+
+.mediaSectionItem {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 22px;
+  color: #454545;
+}

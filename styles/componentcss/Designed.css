@@ -1,0 +1,442 @@
+.SectionIII {
+    min-height: 100vh;
+    position:relative;
+}
+
+.SectionIII h3 {
+    font-size: 14vh;
+    text-align: center;
+    line-height: 15vh;
+}
+
+.designedTopLeftSvgContainer,.designedbottomLeftSvgContainer,
+.designedtopRightSvgContainer,.designedbottomRightSvgContainer,
+.designedbottomCenterSvgContainer {
+    height: 22vh;
+    width:22vh;
+    transition-delay: 0.5s;
+    transition: 1.5s ease-in-out;
+}
+
+.designedTopLeftSvgContainer {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    transform: translate(-10%,-5%) scale(1.5);
+}
+.designedbottomLeftSvgContainer {
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    transform: translate(-10%,-5%) scale(1.5);
+    transition: 1.5s ease-in-out;
+}
+.designedtopRightSvgContainer {
+    position: absolute;
+    right: 0;
+    top: 10%;
+    transform: translate(-20%,0) scale(1.3);
+}
+.designedbottomRightSvgContainer {
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    transform: translate(-10%,0) scale(1.2);
+}
+.designedbottomCenterSvgContainer {
+    position: absolute;
+    right: 40%;
+    bottom: -5%;
+    transform: translate(0%,-40%);
+    transition: 2s ease-in-out;
+    /* transition-delay: 0.5s; */
+}
+.designedTags{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    transition: 2s ease-in-out;
+    /* transition-delay: 0.5s;  */
+}
+.designedTagI{
+    background: #190D61;
+    top: 20%;
+    left:40%;
+    transform: translate(-20%,-40%);
+}
+.designedTagII{
+    background: #DF5353;
+    top: 20%;
+    right:30%;
+    transform: translate(-20%,-30%);
+}
+.designedTagIII{
+    background: #D89C06;;
+    top: 35%;
+    right:12%;
+    transform: translate(-12%,-35%);
+}
+.designedTagIV{
+    background:#686868;
+    bottom: 35%;
+    right:20%;
+    transform: translate(-20%,-35%);
+}
+.designedTagV{
+    background: #BCAEFF;
+    bottom: 30%;
+    left:25%;
+    transform: translate(-30%,-45%);
+}
+.designedTagVI{
+    background: #8AC45B;;
+    top: 45%;
+    left:15%;
+    transform: translate(-25%,-45%);
+}
+
+.designedTagVII{
+    background: #719FF9;
+    top: 25%;
+    left:25%;
+    transform: translate(-25%);
+}
+
+
+/* Animation on scroll */
+
+.designedTopLeftSvgContainer.animateI {
+    transform: translate(15%,-5%) scale(1);
+}
+
+.designedtopRightSvgContainer.animateII {
+    transform: translate(-45%,15%) scale(1.1);
+}
+.designedbottomLeftSvgContainer.animateIII {
+    transform: translate(-20%,15%) scale(1);
+}
+
+.designedbottomCenterSvgContainer.animateV {
+    transform:translate(40%,-40%);
+}
+
+.designedbottomRightSvgContainer.animateIV{
+    transform: translate(-20%,20%) scale(1.0);
+}
+
+/* Tags animation */
+
+.animatetagI {
+    transform: translate(-70%,-105%);
+}
+.animatetagII {
+    top: 22%;
+    right: 36%;
+}
+.animatetagV {
+    transform:translate(100%,250%);
+}
+.animatetagVI {
+    transform: translate(-35%,75%);
+}
+.animatetagVII {
+transform: translate(15%, 110%);
+}
+.animatetagIII {
+    top: 42%;
+    right:7%;
+} 
+.animatetagIV{
+    bottom: 25%;
+    right: 25%;
+}
+
+@media (min-width:1040px) and (max-width:1399px){
+    .SectionIII h3 {
+        font-size:12vh;
+    }
+    .multiPaymentContainer {
+        margin-top: 0 !important;
+    }
+    .multiPaymentTitle {
+        font-size: 5vh;
+    }
+    .designedTopLeftSvgContainer, .designedbottomLeftSvgContainer, .designedtopRightSvgContainer, .designedbottomRightSvgContainer, .designedbottomCenterSvgContainer {
+        width: 18vh !important;
+        height: 18vh !important;
+    }
+    .designedTopLeftSvgContainer {
+        transform: translate(-10%,-5%) scale(1.2) !important;
+        left: 3%;
+    }
+    .designedbottomLeftSvgContainer {
+        transform: translate(-10%,-5%) scale(1.5);
+        left: 3%;
+    }
+    
+    .designedTopLeftSvgContainer.animateI {
+        transform: translate(5%,-5%) scale(1) !important;
+    }
+    .designedbottomLeftSvgContainer.animateIII {
+        transform: translate(-10%,5%) scale(1);
+    }
+/*     .designedtopRightSvgContainer {
+        transform: translate(-10%,0) scale(1.2) !important;
+    } */
+    /* animation class */
+    .designedTagII {
+        background: #DF5353;
+        top: 18%;
+        right: 24%;
+        transform: translate(-20%,-30%);
+    }
+    .animatetagI {
+        transform: translate(-50%,-75%);
+    }
+    .animatetagII {
+        top: 20%;
+        right: 26%;
+    }
+    .animatetagV {
+        transform: translate(50%,200%);
+    }
+    .animatetagVI {
+        transform: translate(-35%,35%);
+    }
+    .animatetagVII {
+        transform: translate(-35%, 75%);
+    }
+    .designedbottomRightSvgContainer.animateIV {
+        transform: translate(-40%,20%) scale(1.0);
+    }
+    
+    
+}
+
+/* smaller tabs or potraite mode */
+@media (min-width:600px) and (max-width:1039px) {
+    .SectionIII h3 {
+        font-size:5.5vh;
+        line-height: 6.5vh;
+        font-weight: 700;
+    }
+    .multiPaymentContainer {
+        margin-top: 0 !important;
+    }
+   /*  .multiPaymentTitle {
+        font-size: 5vh;
+    } */
+    .designedTopLeftSvgContainer, .designedbottomLeftSvgContainer, .designedtopRightSvgContainer, .designedbottomRightSvgContainer, .designedbottomCenterSvgContainer {
+        width: 14vh !important;
+        height: 14vh !important;
+    }
+    .designedTopLeftSvgContainer {
+        transform: translate(-10%,-5%) scale(1.2) !important;
+        left: 3%;
+    }
+    .designedbottomLeftSvgContainer {
+        transform: translate(-10%,-5%) scale(1.5);
+        left: 3%;
+    }
+    
+    .designedTopLeftSvgContainer.animateI {
+        transform: translate(5%,-5%) scale(1) !important;
+    }
+    .designedbottomLeftSvgContainer.animateIII {
+        transform: translate(-10%,5%) scale(1);
+    }
+    .designedbottomCenterSvgContainer {
+        right: 50%;
+        bottom: -10%;
+        width: 14vh !important;
+        height: 14vh !important;
+    }
+    /* animation class */
+    .designedTagI {
+        top:30%;
+    }
+    .designedTagVII{
+        top: 30%;
+        left:22%;
+    }
+    .designedTagII {
+        top: 30%;
+        right: 20%;
+    }
+    .designedTagV {
+        bottom: 35%;
+    }
+    .designedTagVI {
+        top: 52%;
+        left: 12%;
+    }
+    .animatetagI {
+        transform: translate(-50%,-75%);
+    }
+    .animatetagII {
+        transform: translate(-10%,-10%);
+    }
+    .designedTagIII {
+        top: 52%;
+        right: 2%;
+    }
+    .animatetagIII {
+        transform: translate(-20%,20%);
+    }
+    .animatetagV {
+        transform: translate(50%,200%);
+    }
+
+    .animatetagVI {
+        transform: translate(-35%,35%);
+    }
+    .animatetagVII {
+        transform: translate(-35%, 75%);
+    }
+    .designedbottomRightSvgContainer.animateIV {
+        transform: translate(-40%,20%) scale(1.0);
+    }
+}
+/* smaller tabs or potraite mode */
+@media (max-width:599px) {
+    .designedTags {
+        font-size: 12px;
+        padding: 4px 8px;
+        transition-delay: 0ms;
+    }
+    .SectionIII h3 {
+        font-size:32px;
+        line-height: 40px;
+        font-weight: 600;
+        letter-spacing: -1px;
+    }
+    .multiPaymentContainer {
+        margin-top: 0 !important;
+    }
+    .multiPaymentTitle {
+        font-size: 5vh;
+    }
+    .designedTopLeftSvgContainer, .designedbottomLeftSvgContainer, .designedtopRightSvgContainer, .designedbottomRightSvgContainer, .designedbottomCenterSvgContainer {
+        width: 14vh !important;
+        height: 14vh !important;
+    }
+    .designedTopLeftSvgContainer {
+        transform: translate(-10%,-5%) scale(1.1) !important;
+        left: 3%;
+    }
+    .designedbottomLeftSvgContainer {
+        transform: translate(-10%,-5%) scale(1.2);
+        left: 7%;
+    }
+    .designedbottomCenterSvgContainer {
+        display: none;
+    }
+    
+    .designedTopLeftSvgContainer.animateI {
+        transform: translate(5%,-5%) scale(1) !important;
+    }
+    .designedbottomLeftSvgContainer.animateIII {
+        transform: translate(-10%,5%) scale(1);
+    }
+    .designedbottomCenterSvgContainer {
+        right: 50%;
+        bottom: -10%;
+        width: 14vh !important;
+        height: 14vh !important;
+    }
+    /* animation class */
+    .designedTagI {
+        top:30%;
+        left: 39%;
+    }
+    .designedTagVII{
+        top: 30%;
+        left:15%;
+    }
+    .designedTagII {
+        top: 30%;
+        right: 5%;
+        transform: translate(-10%,-10%);
+    }
+    .designedTagIV,.designedTagV {
+        bottom: 27%;
+    }
+    .designedTagV {
+        left: 25%;
+    }
+    .designedTagVI {
+        top: 62%;
+        left: 22%;
+    }
+    .animatetagI {
+        transform: translate(-50%,-75%);
+    }
+    .animatetagII {
+        transform: translate(0);
+    }
+    .designedTagIII {
+        top: 62%;
+        right: 10%;
+    }
+    .animatetagIII {
+        transform: translate(-20%,20%);
+    }
+    .animatetagIV {
+        right:20%;
+    }
+    .animatetagV {
+       bottom:25%;
+       transform: translate(-10%,-50%);
+    }
+    .animatetagVI {
+        transform: translate(-35%,35%);
+    }
+    .animatetagVII {
+        transform: translate(-35%, 75%);
+    }
+    .designedbottomRightSvgContainer.animateIV {
+        transform: translate(-40%,20%) scale(1.0);
+    }
+}
+
+@media (max-width:500px) and (min-height:750px) {
+    .designedTagIV, .designedTagV {
+        bottom:28%;
+    }
+    .designedTagI {
+        left: 42%;
+    }
+    .designedTagVI,.designedTagIII {
+        top: 61%;
+    }
+}
+
+@media (max-width:500px) and (min-height:500px) and (max-height:600px) {
+    .designedTagIV {
+        bottom: 24%;
+    }
+    .designedTagV {
+        bottom: 23%;
+    }
+}
+
+@media (max-width:500px) and (min-height:700px) {
+    .SectionIII {
+        min-height: 90vh;
+    }
+}
+
+@media (max-width:400px) and (max-height:500px) {
+    .SectionIII {
+        min-height: 140vh;
+    }
+    .designedTagIV{
+        bottom: 26%;
+    }
+}

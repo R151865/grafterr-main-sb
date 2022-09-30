@@ -1,0 +1,81 @@
+.body {
+}
+
+.textContainer {
+  width: 90%;
+  z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .textContainer {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .textContainer {
+    width: 40%;
+    max-width: 400px;
+  }
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #5f992f;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (min-width: 1028px) {
+  .heading {
+    font-size: 34px;
+  }
+}
+
+.para {
+  color: #454545;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.button {
+  color: #294613;
+  border: 1px solid #294613;
+  border-radius: 5px;
+}
+
+.imageContainer {
+  width: 70%;
+  /* margin: auto; */
+}
+
+@media screen and (min-width: 768px) {
+  .imageContainer {
+    width: 60%;
+    max-width: 550px;
+  }
+}
+
+.imageIconLeft {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 0;
+}
+
+.imageIconRight {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+}

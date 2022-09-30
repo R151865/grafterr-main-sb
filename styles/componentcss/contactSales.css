@@ -1,0 +1,87 @@
+.contactSalesSubContainer {
+    padding: 50px 0;
+}
+.contactSalesTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5.4vh;
+    letter-spacing: -1px;
+}
+
+.contactSalesCaption {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2vh;
+    letter-spacing: -0.01em;
+}
+.contactSalesbtn {
+    height: 50px;
+    width: 157px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background: #181818;
+    border-radius: 3px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8vh;
+    font-weight: 700;
+    border-radius: 3px;
+    letter-spacing: -0.01em;;
+}
+
+@media (min-width:1040px) and (max-width:1399px){
+    .contactSalesTitle {
+        font-size: 4.5vh;
+    }
+    .contactSalesCaption {
+        font-size: 2vh;
+    }
+    .contactSalesbtn {
+        width:170px;
+        font-size: 2vh;
+    }
+    .imageContainerContactSales{
+        width: 55px;
+        height: 55px;
+    }
+}
+@media (min-width:600px) and (max-width:1039px){
+    .contactSalesTitle {
+        font-size: 3.5vh;
+    }
+    .contactSalesCaption {
+        font-size: 1.8vh;
+    }
+    .contactSalesbtn {
+        width:160px;
+        font-size: 1.6vh;
+    }
+    .imageContainerContactSales{
+        width: 55px;
+        height: 55px;
+    }
+}
+@media (max-width:599px){
+    .contactSalesTitle {
+        font-size: 32px;
+        font-weight: 400;
+    }
+    .contactSalesCaption {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .contactSalesbtn {
+        width:200px;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .imageContainerContactSales{
+        width: 55px;
+        height: 55px;
+    }
+}

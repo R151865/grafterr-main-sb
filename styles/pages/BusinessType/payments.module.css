@@ -1,0 +1,142 @@
+.body {
+  margin: auto;
+  width: 95%;
+}
+
+.textContainer {
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .textContainer {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .textContainer {
+    width: 40%;
+    max-width: 400px;
+  }
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #181818;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (min-width: 1028px) {
+  .heading {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+.subHeading {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -1px;
+  color: #181818;
+}
+
+@media screen and (max-width: 576px) {
+  .subHeading {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+.para {
+  color: #454545;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.anchorElement {
+  font-weight: 700;
+  font-size: 2.7vh;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #454545;
+  padding: 10px;
+}
+
+.imageContainer {
+  margin-top: 25px;
+  width: 85%;
+  /* margin: auto; */
+}
+
+@media screen and (min-width: 768px) {
+  .imageContainer {
+    margin-top: 0;
+    width: 60%;
+    max-width: 600px;
+  }
+}
+
+.card {
+  margin-right: 25px;
+  padding: 16px;
+  width: 170px;
+  height: 156px;
+  background: rgba(254, 254, 254, 0.8);
+  border: 1px solid #f4f4f4;
+  box-shadow: 4px 6px 11px rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+  .card {
+    padding: 16px;
+    width: 130px;
+    height: 120px;
+    background: rgba(254, 254, 254, 0.8);
+    border: 1px solid #f4f4f4;
+    box-shadow: 4px 6px 11px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+  }
+}
+
+.cardHeading {
+  font-weight: 700;
+  font-size: 34px;
+  letter-spacing: -1px;
+  color: #181818;
+}
+
+@media (max-width: 576px) {
+  .cardHeading {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1028px) {
+  .cardHeading {
+    font-size: 36px;
+
+  }
+}
+
+.cardPara {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  color: #181818;
+}
+
+@media (max-width: 576px) {
+  .cardPara {
+    font-size: 14px;
+  }
+}

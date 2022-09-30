@@ -1,0 +1,96 @@
+.grafterNavbarContainer {
+    height:8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    z-index: 999;
+}
+
+.grafterrNavBarLogo {
+    font-size: 2.4vh;
+    font-weight: 700;
+}
+.grafterrLogo {
+    font-size: 2.4vh;
+    font-weight: 700;
+}
+
+.grafterNavlinks,.grafterNavbarShop{
+    font-weight: 400;
+    font-size: 1.8vh;
+    line-height: 24px;
+    color: #454545;
+}
+
+.grafterNavlinks {
+    margin: 0 10px;
+}
+
+.grafterNavbarShop {
+    color: #181818;;
+}
+
+.grafterrNavbarDownload {
+    background: #E95F5F;
+    border-radius: 3px;
+    color: #fff;
+    padding:10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8vh;
+    height:100%;
+}
+
+.grafterrNavbarDownloadAndShop {
+    align-items: center;
+}
+
+/* Responsive nav bar */
+.mobTabNavLinks {
+    font-size:4vh;
+    font-weight: 400;
+    color: #FEFEFE;
+    letter-spacing: -1px;
+    line-height: 5vh;
+}
+.mobTabNavLinks a {
+    position: relative;
+}
+.mobTabNavLinks a::after  {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    left: -5%;
+    top: calc(55%);
+    background-color: #fff;
+    transition: 300ms ease-in-out;
+}
+
+.mobTabNavLinks a:hover::after {
+    width: 110%;
+}
+
+@media (max-width:599px) {
+    .grafterrLogo {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .mobTabNavLinks {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+        letter-spacing: -1px;
+        color: #FBFBFB;
+    }
+}
+@media (min-width:600px) and (max-width:1080px) {
+    .mobTabNavLinks {
+        font-size: 56px;
+        font-weight: 400;
+        line-height: 72px;
+    }
+}

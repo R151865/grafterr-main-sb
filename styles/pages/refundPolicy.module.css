@@ -1,0 +1,60 @@
+.refundPolicyContainer {
+    margin: 30px;
+    margin-top: 12vh;
+}
+
+.refundSubContainer{
+    margin:50px 0;
+}
+
+.refundTitle {
+    font-size:3.2vh;
+    font-weight: 600;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.refundSubTitle {
+    font-size:2.4vh;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+/* .privacyPolicySubTitle{
+    font-size:2.4vh;
+    font-weight: 600;
+    margin: 20px 0;
+} */
+
+.refundSubParagraph {
+    margin: 15px 0;
+    text-align: justify;
+    font-size: 1.8vh;
+    font-weight: 400;
+    line-height: 3vh;
+}
+/* .privacyPolicySubParagraph{
+    margin: 15px 0;
+    text-align: justify;
+    font-size: 1.8vh;
+    font-weight: 400;
+    line-height: 3vh;
+}
+ */
+/* Media queries */
+@media (min-width:1320px) {
+    .refundPolicyContainer   {
+        width:1000px;
+        margin: 12vh auto;
+    } 
+}
+@media (min-width:1520px) {
+    .refundPolicyContainer  {
+        width:1200px;
+    } 
+}
+@media (min-width:1720px) {
+    .refundPolicyContainer   {
+        width:1400px;
+    } 
+}

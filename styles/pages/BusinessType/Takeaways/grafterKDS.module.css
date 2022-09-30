@@ -1,0 +1,228 @@
+
+
+.takeAwayContainer {
+  min-height: 100vh;
+ 
+}
+
+.takeAwayBody {
+  width: 90%;
+  margin: auto;
+
+}
+
+.takeAwayTextContainer {
+  width: 100%;
+  z-index: 1;
+}
+
+.takeAwayHeading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #df5353;
+}
+
+.takeAwayPara {
+  color: #454545;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.takeAwayButton {
+  padding: 2vh 2.5vh;
+  font-size: 14px;
+  color: #8f0707;
+  border: 1px solid #8f0707;
+  border-radius: 5px;
+}
+
+.takeAwayListText {
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #454545;
+}
+
+.takeAwayImageContainer {
+  width: 90%;
+}
+
+
+.takeAwayImageIconRight {
+  z-index: 0;
+  height: 15vh;
+  width: 15vh;
+  bottom: -25%;
+  right: 5%;
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */
+  .takeAwayPara {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .takeAwayHeading {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .takeAwayButton {
+    font-size: 12px;
+  }
+
+  .takeAwayListText {
+    font-size: 10px;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* Styles */
+  .takeAwayPara {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .takeAwayHeading {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .takeAwayButton {
+    font-size: 13px;
+  }
+  .takeAwayListText {
+    font-size: 11px;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles */
+
+  .takeAwayTextContainer {
+    width: 30%;
+  }
+
+  .takeAwayImageContainer {
+    width: 65%;
+  }
+
+  .takeAwayHeading {
+    font-size: 4vh;
+    line-height: 5.5vh;
+  }
+
+  .takeAwayPara {
+    font-size: 2.4vh;
+    line-height: 5vh;
+  }
+
+  .takeAwayButton {
+    font-size: 2.2vh;
+    padding: 2vh;
+  }
+
+  .takeAwayListText {
+    font-size: 2vh;
+    line-height: 3.5vh;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-width: 1024px) {
+  /* Styles */
+
+  .takeAwayTextContainer {
+    width: 30%;
+  }
+
+  .takeAwayImageContainer {
+    width: 65%;
+  }
+
+  .takeAwayHeading {
+    font-size: 4vh;
+    line-height: 5.5vh;
+  }
+
+  .takeAwayPara {
+    font-size: 2.4vh;
+    line-height: 5vh;
+  }
+
+  .takeAwayButton {
+    font-size: 2.2vh;
+    padding: 2vh;
+  }
+
+  .takeAwayListText {
+    font-size: 2vh;
+    line-height: 3.5vh;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+  .takeAwayTextContainer {
+    width: 30%;
+  }
+
+  .takeAwayImageContainer {
+    width: 65%;
+  }
+
+  .takeAwayBody {
+    width: 80%;
+  }
+
+  .takeAwayHeading {
+    font-size: 4.5vh;
+    line-height: 6vh;
+  }
+
+  .takeAwayPara {
+    font-size: 2.5vh;
+    line-height: 4.5vh;
+  }
+
+  .takeAwayButton {
+    font-size: 2.2vh;
+    padding: 2vh;
+  }
+
+  .takeAwayListText {
+    font-size: 2vh;
+    line-height: 3.5vh;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+  .takeAwayHeading {
+    font-size: 4vh;
+    line-height: 5.5vh;
+  }
+
+  .takeAwayPara {
+    font-size: 2.2vh;
+    line-height: 4vh;
+  }
+
+  .takeAwayButton {
+    font-size: 2vh;
+    padding: 2.5vh;
+  }
+
+  .takeAwayListText {
+    font-size: 1.5vh;
+  }
+}
